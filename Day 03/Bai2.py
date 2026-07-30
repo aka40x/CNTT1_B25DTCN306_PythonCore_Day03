@@ -25,6 +25,6 @@ def print_ranking(student_list):
         print(f"Top {rank}: {student['name']} - {student['gpa']} điểm")
 
 
-if __name__ == "__Bai2__":
+if __name__ == "__main__":
     ranked_students = bubble_sort_gpa_descending(students)
     print_ranking(ranked_students)
