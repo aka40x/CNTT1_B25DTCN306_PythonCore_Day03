@@ -23,6 +23,6 @@ def print_filter_result(result, target_category, max_price):
         print(f"  -> [{product['id']}] {product['name']} | Giá: {product['price']:,} VNĐ")
 
 
-if __name__ == "__Bai1__":
+if __name__ == "__main__":
     filtered_products = linear_search_filter(inventory, "Phụ kiện", 1000000)
     print_filter_result(filtered_products, "Phụ kiện", 1000000)
